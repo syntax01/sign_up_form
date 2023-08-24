@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="leaf" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80">
+            <div class="logo">
+                <img class="logo-img" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <h1 class="logo-txt">ODIN</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <h1>This is not a real online service! You know you need something<br>like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</h1>
+            </div>
+            <div class="middle">
+                <h1 class="form-header">Let's do this!</h1>
+                <form method="get">
+                    <div class="input-row">
+                        <div class="input-itm">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="fname">
+                        </div>    
+                        <div class="input-itm">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-itm">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="input-itm">
+                            <label for="phnnum">PHONE NUMBER</label>
+                            <input type="text" id="phnnum" name="phnnum">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-itm">
+                            <label for="pswrd">PASSWORD</label>
+                            <input class="password" type="password" id="pswrd" name="pswrd">
+                            <span id = "invalid-pswrd" class="invalid-pswrd"></span>
+                        </div>
+                        <div class="input-itm">
+                            <label for="pswrd_cnfrm">CONFIRM PASSWORD</label>
+                            <input class="password" type="password" id="pswrd_cnfrm" name="pswrd_cnfrm">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <button>Create Account</button>
+                <h2>Already have an account? Log in</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
